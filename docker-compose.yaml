@@ -1,0 +1,7 @@
+version: '3'
+services:
+  gn_web_app:
+    container_name: gn-web-app
+    image: gn-web-app:0.0.1
+    ports:
+      - "8080:8080"
