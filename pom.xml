@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>gn.web_app</groupId>
-    <artifactId>gn-web-app</artifactId>
+    <artifactId>gn-spring</artifactId>
     <version>0.0.1</version>
     <name>gn-web-app</name>
     <description>gn-web-app</description>
@@ -25,6 +25,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>2.0.37</version>
         </dependency>
 
         <dependency>
